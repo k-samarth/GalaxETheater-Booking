@@ -21,8 +21,8 @@ import com.galaxetheater.dao.TheatreRepository;
 @Service
 public class TheatreServiceImpl implements TheatreService {
 
-	@Autowired
-	RowMapper rowMapper;
+//	@Autowired
+//	RowMapper rowMapper;
 
 	@Autowired
 	TheatreRepository theatreRepository;

@@ -16,8 +16,8 @@ public class SeatServiceImpl implements SeatService {
 
 	@Autowired
 	SeatDAO seatDAO;
-	@Autowired
-	SeatMapper seatMapper;
+//	@Autowired
+//	SeatMapper seatMapper;
 
 	@Override
 	public List<Seat> getAllSeats() {
