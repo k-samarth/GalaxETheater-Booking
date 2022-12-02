@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.galaxetheater.dao.SeatDAO;
 import com.galaxetheater.modal.Seat;
-import com.theater.dto.SeatDTO;
-import com.theater.mapper.SeatMapper;
 
 @Service
 public class SeatServiceImpl implements SeatService {

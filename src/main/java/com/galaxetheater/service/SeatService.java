@@ -3,7 +3,6 @@ package com.galaxetheater.service;
 import java.util.List;
 
 import com.galaxetheater.modal.Seat;
-import com.theater.dto.SeatDTO;
 
 
 public interface SeatService {

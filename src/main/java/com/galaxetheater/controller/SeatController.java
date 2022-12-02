@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.galaxetheater.modal.Seat;
 import com.galaxetheater.service.SeatServiceImpl;
-import com.theater.dto.SeatDTO;
 
 @RestController
 @RequestMapping("seat")

@@ -1,7 +1,6 @@
 package com.galaxetheater.service;
 
 import com.galaxetheater.modal.Theater;
-import com.theater.dto.RowDto;
 
 import java.util.List;
 
@@ -12,7 +11,6 @@ public interface TheatreService {
 
 	public String saveAddress(Address address);
 
-	public String saveRow(RowDto rowDto);
 
 	public boolean isIdExists(int id);
 

@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.theater.dto.RowDto;
 import com.galaxetheater.modal.*;
 import com.galaxetheater.service.TheatreService;
 
@@ -63,10 +62,10 @@ public class TheatreController {
 		return responseEntity;
 	}
 
-	@PostMapping("save/row")
-	public void saveRow(@RequestBody RowDto rowDto) {
-		theatreService.saveRow(rowDto);
-		return;
-	}
+	// @PostMapping("save/row")
+	// public void saveRow(@RequestBody RowDto rowDto) {
+	// 	theatreService.saveRow(rowDto);
+	// 	return;
+	// }
 
 }
