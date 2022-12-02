@@ -18,12 +18,12 @@ public interface BookingMapper {
 
 	public BookingDTO convertToDto(Booking booking);
 
-	public List<BookingDTO> convertModelsToDtos(List<Booking> booking);
+//	public List<BookingDTO> convertModelsToDtos(List<Booking> booking);
 
-	@Mapping(target = "code", source = "code")
-	@Mapping(target = "name", source = "name")
-	@Mapping(target = "seats", source = "seats")
-	@Mapping(target = "totalPrice", source = "totalPrice")
+	@Mapping(target = "code", source = "bookingDTO.code")
+	@Mapping(target = "name", source = "bookingDTO.name")
+	@Mapping(target = "seats", source = "bookingDTO.seats")
+	@Mapping(target = "totalPrice", source = "bookingDTO.totalPrice")
 
 	public Booking convertToEntity(BookingDTO bookingDTO);
 
